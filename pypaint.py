@@ -4,6 +4,7 @@ canvas_width = 700
 canvas_height = 500
 brush_size = 3
 color = "black"
+dev = "Ivan Vysotsky"
 
 
 def paint(event):
