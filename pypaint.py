@@ -2,11 +2,10 @@
 
 from tkinter import *
 
-canvas_width = 700
+canvas_width = 900
 canvas_height = 500
 brush_size = 3
 color = "black"
-dev = "Ivan Vysotsky"
 
 
 def paint(event):
@@ -92,5 +91,7 @@ twenty_btn.grid(row=1, column=6)
 #надписи -- Label
 size_lbl.grid(row=1, column=1)
 color_lbl.grid(row=0, column=1)
+
+root.resizable(False, False)
 root.mainloop()
 
